@@ -12,8 +12,8 @@ int main()
 		a = (a << 1);
 		index++;
 
-		Sleep(250); //Added delay to see the change between each cycle in real time
-					//(This delay slows down the cycle tremendously, it's only here for demonstration)
+		Sleep(250);	//Added delay to see the change between each cycle in real time
+				//(This delay slows down the cycle tremendously, it's only here for demonstration)
 	}
 
 	cout << "\nWe shifted 'a' " << index << " times.";
