@@ -4,6 +4,8 @@ int main()
 try {
 	int index = 0;
 
+	// Addressing step 1-25. from Chapter 5
+	
 	// 1.
 	cout << "Success!\n";
 	index++;
