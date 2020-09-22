@@ -52,7 +52,7 @@ int main()
 	{
 		cout << '[' << i + 1 << ']' << "\t" <<  pile[i] << " m\n";
 	}
-
+omg
 	cout << "\nLargest number: " << max_value << " m\n" << "Smallest number: " << min_value << " m\n"
 		<< "The number of values: " << number_of_values << '\n' << "Sum of the numbers: " << sum  << " m\n";
 
