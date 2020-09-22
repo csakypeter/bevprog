@@ -33,7 +33,7 @@ int main()
 	if (age > 70)
 		cout << "I hope you are enjoying retirement.\n";
 
-	cout << "Yours sincerely,\n\nPeti";
+	cout << "Yours sincerely,\n\nPete";
 
 	return 0;
 }
