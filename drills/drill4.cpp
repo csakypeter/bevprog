@@ -3,7 +3,7 @@
 int main()
 {
 	double value, real_value;
-	double max_value = 0, min_value = 0, sum = 0;
+	double /*max_value = 0, min_value = 0,*/ sum = 0;
 	vector<double> pile;
 	string unit;
 
@@ -27,7 +27,7 @@ int main()
 			sum += real_value;
 			pile.push_back(real_value);
 
-			if (max_value == 0 && min_value == 0)
+			/*if (max_value == 0 && min_value == 0)
 			{
 				max_value = real_value;
 				min_value = real_value;
@@ -39,7 +39,7 @@ int main()
 			else if (real_value < min_value)
 			{
 				min_value = real_value;
-			}
+			}*/
 		}
 		else
 			cout << "The entered unit is invalid\n";
@@ -52,7 +52,7 @@ int main()
 		cout << '[' << i + 1 << ']' << "\t" << pile[i] << " m\n"; // +1 to the increment because of readability (vector starts from 0)
 	}
 
-	cout << "\nLargest number: " << max_value << " m\n" << "Smallest number: " << min_value <<" m\n"
+	cout << "\nLargest number: " << pile[pile.size() - 1] << " m\n" << "Smallest number: " << pile[0] <<" m\n"
 		<< "The number of values: " << pile.size() << '\n' << "Sum of the numbers: " << sum << " m\n";
 
 	return 0;
